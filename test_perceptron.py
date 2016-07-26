@@ -12,7 +12,7 @@ class OutputTestCase(unittest.TestCase):
         self.assertEqual(perceptron.calculate_output([0.0]), 1)
         self.assertEqual(perceptron.calculate_output([-100.0]), 0)
 
-    def test_calculate_output1(self):
+    def test_calculate_output2(self):
         perceptron = Perceptron(initial_weights=[1.0, 1.0, 1.0])
 
         self.assertEqual(perceptron.calculate_output([10.0, -5.0]), 1)
